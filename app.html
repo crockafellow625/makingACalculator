@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+    <form>
+        Value 1: <input type="text" id="valueOne">
+        Value 2: <input type="text" id="valueTwo">
+        Operator: 
+        <select id="operator">
+            <option value="add">Add</option>
+            <option value="min">Subtract</option>
+            <option value="div">Divide</option>
+            <option value="mul">Multiply</option>
+        </select>
+        <button type="button" id="answerBtn" onclick="calculator();">Calculate</button>
+        <p id="result"></p>
+    </form>
+    <script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+</html>
